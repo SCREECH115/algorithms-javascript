@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Bank Card</title>
+    <script type="module" src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <footer>
+      &copy; 2023 by <a href="https://github.com/SCREECH115">SCREECH115</a>
+    </footer>
+    <div class="container">
+      <div class="title-container">Verify Bank Card</div>
+      <div class="content-container">
+        <div class="input-card">
+          <input
+            class="input-value"
+            id="inputValue"
+            type="text"
+            placeholder="Enter number here"
+          />
+        </div>
+        <button class="generateBtn" id="checkButton">Verify Number</button>
+        <div class="output-card">
+          <input id="outputValue" class="output-value" type="text" disabled />
+        </div>
+        <div class="buttons">
+          <button id="copyBtn" class="copy-btn">Copy</button>
+          <button id="resetBtn" class="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

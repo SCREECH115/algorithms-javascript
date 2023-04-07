@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher</title>
+    <script type="module" src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="titles">
+      <!-- <div class="sub-title">ROT13</div> -->
+    </div>
+    <div class="container">
+      <div class="title">CAESAR-CIPHER</div>
+      <div class="app-container">
+        <input
+          id="input"
+          class="input"
+          type="text"
+          placeholder="Enter value..."
+          required
+          onkeydown="if(event.keyCode === 32) return false"
+        />
+        <!-- <button class="btn" >Generate ROT-13</button> -->
+
+        <button id="btnGenerate">
+          <div class="text">
+            <span>Generate</span>
+            <span>ROT-13</span>
+            <span>Code</span>
+          </div>
+          <div class="clone">
+            <span>Letters</span>
+            <span>will</span>
+            <span>shift</span>
+          </div>
+          <svg
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            ></path>
+          </svg>
+        </button>
+        <p id="warning" class="warning">Please enter a value!</p>
+        <hr />
+        <input id="output" class="output" type="text" disabled />
+        <div class="buttons">
+          <button class="copy-btn">Copy</button>
+          <button class="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2023 by <a href="https://github.com/SCREECH115">SCREECH115</a>
+    </footer>
+  </body>
+</html>

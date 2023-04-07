@@ -1,0 +1,26 @@
+{
+  "MasterCard": {
+    "numberLength": [16],
+    "startIndex": [22, 51, 52, 53, 54, 55]
+  },
+  "Visa": {
+    "numberLength": [13, 16],
+    "startIndex": [4]
+  },
+  "American Express": {
+    "numberLength": [15],
+    "startIndex": [34, 37]
+  },
+  "Diners Club": {
+    "numberLength": [14],
+    "startIndex": [30]
+  },
+  "Discover": {
+    "numberLength": [16],
+    "startIndex": [60]
+  },
+  "JCB": {
+    "numberLength": [16],
+    "startIndex": [35]
+  }
+}
